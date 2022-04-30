@@ -13,4 +13,4 @@
 - Press DEL to open the trainer
 
 **Preview:**
-https://media.discordapp.net/attachments/876182756797874216/970042793953210378/unknown.png?width=851&height=480
+![alt text](https://media.discordapp.net/attachments/876182756797874216/970042793953210378/unknown.png?width=851&height=480)
