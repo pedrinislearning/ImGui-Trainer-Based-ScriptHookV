@@ -100,20 +100,14 @@ HRESULT hkPresent(IDXGISwapChain* pSwapchain, UINT SyncInterval, UINT Flags) {
 
 void FunctionsLoop()
 {
-	int waittime = 2000;
-	bool rcheck = false;
-	while (true) {
-		if (SHenabled == true) {
-			waittime = 5;
-			Vehicle vehicle = GET_PLAYERS_LAST_VEHICLE();
-			if (vehicle != NULL)
-			_SET_VEHICLE_ENGINE_POWER_MULTIPLIER(vehicle, cfg::VehAcc);
-			rcheck = true;
-		}
-		if (rcheck == false)
-		SHenabled = NETWORK_IS_SESSION_STARTED();
-		
-		Sleep(waittime);
+	while (true) 
+	{
+
+		Vehicle vehicle = GET_PLAYERS_LAST_VEHICLE();
+		if (vehicle != NULL)
+		_SET_VEHICLE_ENGINE_POWER_MULTIPLIER(vehicle, cfg::VehAcc);
+
+		Sleep(1000);
 	}
 }
 
