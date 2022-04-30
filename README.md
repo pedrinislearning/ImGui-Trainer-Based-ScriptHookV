@@ -9,7 +9,7 @@
 
 **Usage**
 - Compile the project as Release x64 
-- Attach the dll at FiveM_GTA process using LoadLibrary
+- Attach the dll at FiveM_GTA_Process using LoadLibrary
 - Press DEL to open the trainer
 
 **Preview:**
