@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{075ec84e-6663-4676-b3d1-0bb2341cd51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\lib">
+      <UniqueIdentifier>{6cbdd9e7-0ef5-4cbd-93e4-859035473b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\header">
+      <UniqueIdentifier>{f6091588-1972-4a88-b1fe-9d6ede6c4635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\main">
+      <UniqueIdentifier>{753fc3df-2a28-486b-a827-0708b8e0ca8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\lib\ImGui">
+      <UniqueIdentifier>{0585edea-3ab6-40d3-8ca9-d579d5c2b4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\header\Invoker">
+      <UniqueIdentifier>{abb68b83-8629-4770-9124-4049bbb5f09a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="nativeCaller.h">
+      <Filter>Resources\header\Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Resources\header\Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Resources\header</Filter>
+    </ClInclude>
+    <ClInclude Include="natives.h">
+      <Filter>Resources\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Resources\lib\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resources\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
